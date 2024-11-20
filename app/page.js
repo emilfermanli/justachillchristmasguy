@@ -19,6 +19,7 @@ import {
   Linkedin,
   Twitter,
 } from "lucide-react";
+import HeroImage from "@/public/sticker.webp";
 import Image from "next/image";
 
 const TwinklingLights = () => {
@@ -146,7 +147,7 @@ export default function Component() {
         <section id="home" className="relative py-20 bg-red-600 text-white">
           <div className="container mx-auto text-center">
             <Image
-              src="/placeholder.svg?height=150&width=150"
+              src={HeroImage}
               alt="JustaChillChristmasGuy Logo"
               width={150}
               height={150}
