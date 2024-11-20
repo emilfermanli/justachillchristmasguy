@@ -2,6 +2,7 @@
   "name": "justachillchristmasguy",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://<emilfermanli>.github.io/<justachillchristmasguy>",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
